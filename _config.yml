@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "physh.net"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "Google Maps food lists and pointless advice"
+name                     : # "Your Name"
+description              : "A collection of advice, and curated or not so curated food lists for Google Maps"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,36 +113,37 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Guillaume"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Traveler, Tinkerer, Food+Coffee+Wine enthusiast"
+  location         : "San Francisco and elesehwere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:lists@physh.net"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "Threads"
+      icon: "fab fa-fw fa-threads-square"
+      url: "https://www.threads.net/@guiyom__"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/physhster"
+
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "Threads"
+      icon: "fab fa-fw fa-threads-square"
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
