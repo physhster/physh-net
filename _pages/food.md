@@ -1,7 +1,4 @@
 ---
-layout: page
-title: Items
-permalink: /food/
 ---
 
 <h1>Food Lists by Continent</h1>

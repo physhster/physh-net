@@ -314,6 +314,7 @@ compress_html:
 collections:
   food_lists:
     output: false
+    permalink: /food/
 
 # Defaults
 defaults:
