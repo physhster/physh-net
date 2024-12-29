@@ -6,12 +6,12 @@ permalink: /food/
 
 <h1>Food Lists by Continent</h1>
 
-{% assign continents = site.data.food_lists | keys %}
+{% assign continents = site.food_lists | keys %}
 
 {% for continent in continents %}
   <h2>{{ continent | capitalize }}</h2>
   <div class="food-list-container">
-    {% assign items = site.data.food_lists[continent] %}
+    {% assign items = site.food_lists[continent] %}
     {% for item in items %}
       {% include food_list item=item %}
     {% endfor %}
