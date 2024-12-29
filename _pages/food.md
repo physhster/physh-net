@@ -5,7 +5,7 @@ permalink: /food/
 ---
 
 <div class="lists-container">
-  {% raw %}{% for food_list in site.food %}
+  {% for food_list in site.food %}
     <div class="food_list_page">
       <a href="{{ food_list.list_url }}" target="_blank">
         {% if food_list.list_image %}
@@ -14,5 +14,5 @@ permalink: /food/
         <h2>{{ food_list.list_title }}</h2>
       </a>
     </div>
-  {% endfor %}{% endraw %}
+  {% endfor %}
 </div>
