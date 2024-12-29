@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "physh.net"
 title_separator          : "|"
-subtitle                 : "Google Maps food lists and pointless advice"
+subtitle                 : "Google Maps Food Lists and pointless advice"
 name                     : # "Your Name"
 description              : "A collection of advice, and curated or not so curated food lists for Google Maps"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -310,6 +310,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  food_lists:
+    output: true
+    permalink: /_food_lists/:path/
 
 # Defaults
 defaults:
