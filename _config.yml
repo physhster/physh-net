@@ -313,7 +313,7 @@ compress_html:
 
 collections:
   food_lists:
-    output: true
+    output: false
 
 # Defaults
 defaults:
@@ -325,7 +325,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true
   # _pages
