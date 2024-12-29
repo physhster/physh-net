@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div class="food-item">
+  {% if page.list_image %}
+  <img src="{{ page.list_image }}" alt="{{ page.list_title }}">
+  {% endif %}
+  <h2>{{ page.list_title }}</h2>
+  <a href="{{ page.list_url }}" target="_blank">Get List</a>
+</div>

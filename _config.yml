@@ -314,7 +314,6 @@ compress_html:
 collections:
   food_lists:
     output: false
-    permalink: /food/
 
 # Defaults
 defaults:
@@ -339,12 +338,12 @@ defaults:
       read_time: false
       comments: false
       related: false
-  # _portfolio
+  # _food_lists
   - scope:
       path: ""
-      type: portfolio
+      type: "food_lists"
     values:
-      layout: single
+      layout: "food_item"
       author_profile: false
       read_time: false
       comments: false
