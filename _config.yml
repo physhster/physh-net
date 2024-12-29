@@ -313,8 +313,7 @@ compress_html:
 
 collections:
   food_lists:
-    output: false
-    permalink: /_food_lists/:path/
+    output: true
 
 # Defaults
 defaults:
