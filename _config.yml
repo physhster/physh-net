@@ -166,6 +166,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _food_lists
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
