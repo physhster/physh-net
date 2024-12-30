@@ -1,0 +1,42 @@
+---
+title: Food Lists
+layout: single
+permalink: /food/
+---
+
+{% assign categories = site.food_lists | map: "category" | uniq | sort %}
+
+{% for category in categories %}
+  <section class="page__content">
+    <h3 style="font-size: 2em">{{ category }}</h3>
+    
+    <div class="feature__wrapper">
+      {% assign items = site.food_lists | where: "category", category | sort: "title" %}
+      {% for item in items %}
+        <div class="feature__item">
+          <div class="archive__item">
+            <div class="archive__item-body">
+              <h4 class="archive__item-title no_toc" style="font-size: 1em; margin-bottom: 0.5em;">{{ item.title }}</h4>
+              
+              {% if item.image %}
+                <div class="archive__item-teaser">
+                  <img src="{{ item.image }}" alt="{{ item.title }}">
+                </div>
+              {% endif %}
+
+              <div class="archive__item-excerpt">
+                {{ item.content }}
+                
+                {% if item.maps_url %}
+                  <p>
+                    <a href="{{ item.maps_url }}" target="_blank" class="btn">View on Google Maps →</a>
+                  </p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}

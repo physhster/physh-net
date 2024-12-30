@@ -313,7 +313,6 @@ compress_html:
 
 collections:
   food_lists:
-    title: Food Lists
     output: false
 
 # Defaults
@@ -335,17 +334,6 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      related: false
-  # _food_lists
-  - scope:
-      path: ""
-      type: "food_lists"
-    values:
-      nav_level: 1
-      layout: "food_item"
       author_profile: false
       read_time: false
       comments: false
