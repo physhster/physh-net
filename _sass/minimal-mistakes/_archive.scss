@@ -44,11 +44,14 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
-  line-height: initial;
+  height: 2.5em; /* Adjust this based on the font size */
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap; /* For single-line truncation */
+  line-height: 1.2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
 
   a[rel="permalink"]::before {
     content: '';
